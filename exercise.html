@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise</title>
+
+    <style>
+      #Stretch {
+        background-color: green;
+        color: white;
+        vertical-align: top;
+        padding: 4px 4px;
+        transition: padding 1s;
+        border: none;
+        cursor: pointer;
+      }
+
+      #Stretch:hover {
+        padding: 6px 10px;
+      }
+
+      #Shadow {
+        background-color: green;
+        color: white;
+        vertical-align: top;
+        padding: 4px 4px;
+        border: none;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+        transition: box-shadow 0.1s;
+        cursor: pointer;
+      }
+
+      #Shadow:active {
+        box-shadow: none;
+      }
+
+      .One-Two-Three {
+        background-color: green;
+        color: white;
+        padding: 3px 3px;
+        transition: 0.15s;
+      }
+      .One-Two-Three:hover {
+        padding: 3px 7px;
+      }
+    </style>
+  </head>
+  <body>
+    <button>Back</button>
+
+    <a href="">1</a>
+    <a href="">2</a>
+    <a href="">3</a>
+    <a href="">4</a>
+    <a href="">5</a>
+    <button>Next</button>
+
+    <button id="Stretch">Stretch</button>
+
+    <button id="Shadow">Shadow</button>
+
+    <button class="One-Two-Three">One</button>
+    <button class="One-Two-Three">Two</button>
+    <button class="One-Two-Three">Three</button>
+  </body>
+</html>
