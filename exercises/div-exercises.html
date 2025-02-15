@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+      }
+      .horizontal-div,
+      .vertical-div,
+      .follow-container {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .vertical-div p {
+        margin: 0.5px 12px;
+      }
+      .follow-container {
+        margin-left: auto;
+      }
+      .name {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .kind,
+      .popularty {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: rgb(98, 96, 96);
+      }
+      .follow-btn {
+        color: white;
+        background-color: rgb(0, 94, 245);
+        border: none;
+        border-radius: 7%;
+        width: 60px;
+        height: 25px;
+        cursor: pointer;
+      }
+      .pp {
+        width: 60px;
+        border-radius: 50%;
+        margin-top: 10px;
+      }
+      .profile {
+        display: flex;
+        align-items: center; /* Tüm iç öğeleri dikeyde ortalar */
+        justify-content: flex-start; /* İçeriği soldan başlat */
+        width: 100%; /* Satırın tam genişlikte olmasını sağlar */
+      }
+    </style>
+    <title>Div exercises</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile">
+        <div class="horizontal-div">
+          <img class="pp" src="/channel-pictures/channel-1.jpeg" alt="" />
+        </div>
+
+        <div class="vertical-div">
+          <p class="name">Oliver</p>
+          <p class="kind">The cat</p>
+          <p class="popularty">Popular</p>
+        </div>
+
+        <div class="follow-container">
+          <button class="follow-btn">Follow</button>
+        </div>
+      </div>
+
+      <div class="profile">
+        <div class="horizontal-div">
+          <img class="pp" src="/channel-pictures/channel-2.jpeg" alt="" />
+        </div>
+
+        <div class="vertical-div">
+          <p class="name">Mimi</p>
+          <p class="kind">Sleepy Cat</p>
+          <p class="popularty">Popular</p>
+        </div>
+        <div class="follow-container">
+          <button class="follow-btn">Follow</button>
+        </div>
+      </div>
+
+      <div class="profile">
+        <div class="horizontal-div">
+          <img class="pp" src="/channel-pictures/channel-3.jpeg" alt="" />
+        </div>
+        <div class="vertical-div">
+          <p class="name">Rex</p>
+          <p class="kind">Happy Bulldog</p>
+          <p class="popularty">Popular</p>
+        </div>
+        <div class="follow-container">
+          <button class="follow-btn">Follow</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
