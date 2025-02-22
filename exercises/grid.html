@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .frame {
+        border: none;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.15);
+        width: 170px;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 100px;
+      }
+      .mutual {
+        white-space: nowrap;
+        padding-bottom: 12px;
+        color: rgb(90, 90, 90);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .mutual,
+      .mutual-img {
+        margin-bottom: 5px;
+      }
+      .mutual-img {
+        width: 30px;
+        border-radius: 50%;
+      }
+      .mutual-img:hover {
+        cursor: pointer;
+      }
+      .big-pp {
+        width: 170px;
+      }
+      .text1 {
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .div-3 {
+        display: grid;
+        grid-template-columns: 40px auto;
+        align-items: center;
+      }
+      .Add-btn {
+        background-color: rgb(35, 130, 255);
+        color: white;
+        border: none;
+        border-radius: 7%;
+        padding: 12px 17px;
+        width: 120px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      .Add-btn:hover {
+        background-color: rgb(90, 89, 89);
+        color: rgb(35, 130, 255);
+        font-size: 15px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+      }
+      .name {
+        font-weight: bold;
+        margin-bottom: 1px;
+      }
+      .main {
+        display: grid;
+        grid-template-columns: 170px 170px 170px;
+        column-gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="frame">
+        <div class="container">
+          <img class="big-pp" src="/channel-pictures/channel-1.jpeg" alt="" />
+        </div>
+        <div class="container">
+          <div class="text1">
+            <p class="name">Oliver</p>
+          </div>
+          <div class="div-3">
+            <img
+              class="mutual-img"
+              src="/channel-pictures/channel-1.jpeg"
+              alt=""
+            />
+            <p class="mutual">2 mutual friends</p>
+          </div>
+          <div class="btn-container">
+            <button class="Add-btn">Add Friend</button>
+          </div>
+        </div>
+      </div>
+      <div class="frame">
+        <div class="container">
+          <img class="big-pp" src="/channel-pictures/channel-2.jpeg" alt="" />
+        </div>
+        <div class="container">
+          <div class="text1">
+            <p class="name">Oliver</p>
+          </div>
+          <div class="div-3">
+            <img
+              class="mutual-img"
+              src="/channel-pictures/channel-2.jpeg"
+              alt=""
+            />
+            <p class="mutual">2 mutual friends</p>
+          </div>
+          <div class="btn-container">
+            <button class="Add-btn">Add Friend</button>
+          </div>
+        </div>
+      </div>
+      <div class="frame">
+        <div class="container">
+          <img class="big-pp" src="/channel-pictures/channel-3.jpeg" alt="" />
+        </div>
+        <div class="container">
+          <div class="text1">
+            <p class="name">Oliver</p>
+          </div>
+          <div class="div-3">
+            <img
+              class="mutual-img"
+              src="/channel-pictures/channel-3.jpeg"
+              alt=""
+            />
+            <p class="mutual">2 mutual friends</p>
+          </div>
+          <div class="btn-container">
+            <button class="Add-btn">Add Friend</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

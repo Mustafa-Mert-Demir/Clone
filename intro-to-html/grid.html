@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+  </head>
+  <body style="padding-bottom: 1000px">
+    <div style="display: grid; grid-template-columns: 100px 100px">
+      <div style="background-color: lightblue">Div 1</div>
+      <div style="background-color: lightpink">
+        Div 2
+        <p>text</p>
+      </div>
+    </div>
+
+    <div
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 100px 100px 200px;
+        row-gap: 10px;
+        column-gap: 20px;
+      "
+    >
+      <div style="background-color: aqua">100px</div>
+      <div style="background-color: black">100px</div>
+      <div style="background-color: blue">200px</div>
+    </div>
+    <div
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 100px 100px 200px;
+        row-gap: 10px;
+        column-gap: 20px;
+      "
+    >
+      <div style="background-color: aqua">100px</div>
+      <div style="background-color: black">100px</div>
+      <div style="background-color: blue">200px</div>
+    </div>
+
+    <div
+      style="
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 25px;
+        row-gap: 10px;
+      "
+    >
+      <div style="height: 200px; background-color: lightblue">100px</div>
+      <div style="height: 200px; background-color: lightpink">1fr</div>
+      <div style="height: 200px; background-color: lightblue">2fr</div>
+      <div style="height: 200px; background-color: lightpink">1fr</div>
+      <div style="height: 200px; background-color: lightblue">2fr</div>
+      <div style="height: 200px; background-color: lightpink">1fr</div>
+    </div>
+  </body>
+</html>

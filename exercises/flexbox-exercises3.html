@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(122, 9, 228);
+        height: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .L {
+        width: 80px;
+        color: white;
+        padding-left: 10px;
+      }
+      .M {
+        width: 500px;
+      }
+      .R {
+        border: 2px solid white;
+        color: white;
+        padding: 4px 4px;
+        margin-right: 8px;
+      }
+
+      .Search-bar {
+        padding: 7px 10px;
+        width: 450px;
+        border: none;
+        border-radius: 30px;
+        font-weight: 400;
+        transition: 0.3s;
+      }
+      .Search-bar:hover {
+        background-color: rgb(91, 91, 91);
+      }
+      .Search-bar:hover::placeholder {
+        transition: 1s;
+        color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="L">Home</div>
+      <div class="M">
+        <input class="Search-bar" type="text" placeholder="Search" />
+      </div>
+      <div class="R">Download</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .Top,
+      .Mid,
+      .Bot {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 12px;
+      }
+      .pp {
+        border: none;
+        border-radius: 50%;
+      }
+      .div-p {
+        padding-left: 10px;
+        margin-top: 1px;
+        line-height: 7px;
+        width: 100px;
+        border: 2px solid rebeccapurple;
+      }
+      .p1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+      }
+      .p2 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(94, 94, 94);
+      }
+
+      .p3 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(94, 94, 94);
+        font-size: 14px;
+      }
+
+      .flw-button {
+        margin-left: 90px;
+        background-color: rgb(33, 96, 224);
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 9px 15px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="Top">
+        <img class="pp" src="/channel-pictures/channel-1.jpeg" alt="" />
+        <div class="div-p">
+          <p class="p1">oliver</p>
+          <p class="p2">the cat</p>
+          <p class="p3">Popular</p>
+        </div>
+        <div class="flw-div">
+          <button class="flw-button">Follow</button>
+        </div>
+      </div>
+
+      <div class="Mid">
+        <img class="pp" src="/channel-pictures/channel-2.jpeg" alt="" />
+        <div class="div-p">
+          <p class="p1">Mimi</p>
+          <p class="p2">Sleepy Cat</p>
+          <p class="p3">Popular</p>
+        </div>
+        <div class="flw-div">
+          <button class="flw-button">Follow</button>
+        </div>
+      </div>
+
+      <div class="Bot">
+        <img class="pp" src="/channel-pictures/channel-3.jpeg" alt="" />
+        <div class="div-p">
+          <p class="p1">oliver</p>
+          <p class="p2">the cat</p>
+          <p class="p3">Popular</p>
+        </div>
+        <div class="flw-div">
+          <button class="flw-button">Follow</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
